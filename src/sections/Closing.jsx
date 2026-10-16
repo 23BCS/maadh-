@@ -1,4 +1,4 @@
-import { Eyebrow, Reveal, Split, Magnetic, Logo, mailto } from '../ui.jsx';
+ĺimport { Eyebrow, Reveal, Split, Magnetic, Logo, mailto } from '../ui.jsx';
 import { useInView } from '../hooks';
 import { CONTACT_EMAIL, SOCIALS, ADDRESS } from '../config';
 import { LINKS } from './Nav.jsx';
@@ -74,7 +74,7 @@ function Footer() {
           <nav aria-label="Footer"><ul>{LINKS.map(([t, h]) => <li key={h}><a href={h}>{t}</a></li>)}</ul></nav>
         </div>
         <div className="f-bot">
-          <span>© 2024 MAADH. All rights reserved.</span>
+          <span>© 2026 MAADH. All rights reserved.</span>
           {SOCIALS.length > 0 && <span>{SOCIALS.map((s) => <a key={s.href} href={s.href} rel="noopener noreferrer" target="_blank" style={{ marginLeft: 16 }}>{s.label}</a>)}</span>}
         </div>
       </div>
